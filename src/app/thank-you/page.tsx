@@ -14,7 +14,7 @@ export default function ThankYouPage() {
           className="mx-auto rounded mb-4"
         />
         <h2 className="text-xl font-semibold mb-2">MENDO AYO Live In Concert</h2>
-        <p className="mb-4 text-gray-700">We appreciate your registration. Check your email for event details and updates. We look forward to seeing you at the concert!</p>
+        <p className="mb-4 text-gray-700">We appreciate your registration. Have a nice time in God's presence!</p>
         <div className="bg-yellow-100 rounded p-4 mb-4">
           <p className="font-semibold">Next Event Announcement</p>
           <p className="text-gray-700">Stay tuned for our next event on <span className="font-bold">December 27, 2025</span>! More details coming soon.</p>
