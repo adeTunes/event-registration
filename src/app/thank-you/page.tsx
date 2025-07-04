@@ -17,7 +17,7 @@ export default function ThankYouPage() {
         <p className="mb-4 text-gray-700">We appreciate your registration. Check your email for event details and updates. We look forward to seeing you at the concert!</p>
         <div className="bg-yellow-100 rounded p-4 mb-4">
           <p className="font-semibold">Next Event Announcement</p>
-          <p className="text-gray-700">Stay tuned for our next event on <span className="font-bold">December 20, 2025</span>! More details coming soon.</p>
+          <p className="text-gray-700">Stay tuned for our next event on <span className="font-bold">December 27, 2025</span>! More details coming soon.</p>
         </div>
         <Link href="/" className="text-yellow-700 underline">Back to Home</Link>
       </div>
