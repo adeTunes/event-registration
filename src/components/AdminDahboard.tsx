@@ -33,8 +33,8 @@ export default function AdminDashboardPage({ isAdmin }: { isAdmin?: boolean }) {
     other: number;
   }>({ male: 0, female: 0, other: 0 });
   const [loading, setLoading] = useState(true);
-  const [startDate, setStartDate] = useState("");
-  const [endDate, setEndDate] = useState("");
+  const [startDate] = useState("");
+  const [endDate] = useState("");
 
   useEffect(() => {
     async function fetchData() {

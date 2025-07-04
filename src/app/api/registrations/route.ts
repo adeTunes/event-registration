@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { connectToDatabase } from "@/lib/mongodb";
 import { registrationSchema } from "@/types/registration";
-import { Collection } from "mongodb";
 
 function isAdminAuthenticated(req: NextRequest) {
   const cookie = req.cookies.get("admin_session");
